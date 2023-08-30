@@ -15,7 +15,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(routes);
+//app.use(routes);
 
 app.listen(PORT, () => {
     console.log("Server listening!");
